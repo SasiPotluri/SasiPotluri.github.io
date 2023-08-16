@@ -1,0 +1,124 @@
+{
+  "data": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Restaurant Recommendation system",
+      "createdAt": "",
+      "url": "https://github.com/TapaswiBusireddy/SER531-Team6",
+      "description": "🔥 An Semantic web application to recommend restaurants to customers based on various filters with an interactive UI .",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "AWS",
+          "iconifyClass": "logos-aws"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "ARGS-language",
+      "createdAt": "",
+      "url": "https://github.com/Girija2905/SER502-Spring2023-Team11/tree/main",
+      "description": "📦 Designed and developed ARGS a new programming language for beginners which works with .args extension.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG0_8uQ",
+      "name": "Autonomous rover environment",
+      "createdAt": "",
+      "url": "https://github.com/95nikhil/SER515-Spring22-Team-5",
+      "description": " 🚀 A simulation of an autonomous rover in a Linux environment",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Linux",
+          "iconifyClass": "simple-icons:linux"
+        },
+        {
+          "name": "Git",
+          "iconifyClass": "simple-icons:git"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOGcPKSQ",
+      "name": "Twitter Emotion Evaluator",
+      "createdAt": "",
+      "url": "https://github.com/SasiPotluri",
+      "description": "⚙️ A Full stack web application that performs sentiment analysis on Twitter data using Django and Tweepy",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Django",
+          "iconifyClass": "logos-django"
+        },
+        {
+          "name": "Tweepy",
+          "iconifyClass": "logos-twitter"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjcyMjI5Njk=",
+      "name": "Video Rater Application",
+      "createdAt": "",
+      "url": "https://github.com/SasiPotluri",
+      "description": "🚀 Video rater android application in that allows Users to Choose, View and Rate the videos using an interactive User Interface.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        },
+        {
+          "name": "Android",
+          "iconifyClass": "simple-icons:android"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
+      "name": "Smart Heart rate monitor",
+      "createdAt": "",
+      "url": "https://github.com/SasiPotluri",
+      "description": "🚀 Detects fluctuations in heart rate of the patient, alerts the doctor and allows him to visualize and analyze the patient’s heartbeat (ECG) through an IOT based analytics platform to suggest the vital first aid.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Matlab",
+          "iconifyClass": "simple-icons:matlab"
+        },
+        {
+          "name": "python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    }
+  ]
+}
