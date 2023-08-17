@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class EducationImg extends Component {
   render() {
-    const theme = this.props.theme;
+    // const theme = this.props.theme;
     return (
       <img
         alt="Sasi is configuring a server"

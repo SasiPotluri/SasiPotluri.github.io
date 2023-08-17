@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
+// import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 
 export default class DesignImg extends Component {
   render() {
-    const theme = this.props.theme;
+    // const theme = this.props.theme;
     return (
       <img
         alt="Sasi is Building Database"
