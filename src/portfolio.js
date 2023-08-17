@@ -24,7 +24,7 @@ const greeting = {
   subTitle:
     "I am a passionate software engineer who thrives to work in challenging projects to create an impact on the advancement of technology..",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
+    "https://drive.google.com/file/d/1_JVDgN9_SCz9fTfvbYGaky5e68T_i58f/view?usp=drive_link",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/ashutosh1919",
 };
