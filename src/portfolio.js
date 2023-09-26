@@ -259,8 +259,7 @@ const education = {
       alt_name: "IIITDM Kancheepuram",
       duration: "2016 - 2020",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        "⚡ I have studied basic software engineering subjects like Data Structures and Algorithms, Database management systems, Operating systems, etc.",
         "⚡ Recepient of Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
       website_link: "http://iiitdm.ac.in",
@@ -278,7 +277,7 @@ const experience = {
       subtitle: "Congruent Solutions",
       logo_path: "congruent_logo.png",
       alt_name: "CSPL",
-      duration: "May 2020 - Nov 2023",
+      duration: "May 2020 - Nov 2021",
       descriptions: [
         "⚡  Engineered and deployed CORE-2.0, a full stack application utilizing .NET CORE and ReactJS frameworks to streamline 401(K) plan record keeping, resulting in a 50% reduction in data entry time.",
         "⚡  Implemented Entity and Dapper ORM to create microservices for 5 modules, reducing server response time by 50% and increasing user satisfaction by 35% using C#",
@@ -294,7 +293,7 @@ const experience = {
       subtitle: "SVP Laser Tech",
       logo_path: "svp_logo.png",
       alt_name: "SVP",
-      duration: "May 2020 - Nov2023",
+      duration: "Apr 2019 - Jun 2019",
       descriptions: [
         "⚡ Optimized the MULTICNC software which performs high Precision profiling on several materials with 0.1 mm tolerance.",
         "⚡ Charted Algorithms for a miniature Vending Machine using Raspberry Pi and Arduino.",
