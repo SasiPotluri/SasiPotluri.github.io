@@ -3,8 +3,9 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import Educations from "../../containers/education/Educations";
+import Certifications from "../../containers/certifications/Certifications";
 import EducationImg from "./EducationImg";
-import { education } from "../../portfolio";
+import { certifications, education } from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 
@@ -18,6 +19,10 @@ class Education extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="heading-div">
               <div className="heading-img-div">
+                {/* <img
+									src={require("../../assests/images/education.svg")}
+									alt=""
+								/> */}
                 <EducationImg theme={theme} />
               </div>
               <div className="heading-text-div">
@@ -25,18 +30,18 @@ class Education extends Component {
                   Education
                 </h1>
                 <p
-                  className="heading-sub-text"
+                  className="experience-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {education.description}
+                  {education["description"]}
                 </p>
               </div>
             </div>
           </Fade>
           <Educations theme={this.props.theme} />
-          {/* {certifications.certifications.length > 0 ? (
+          {certifications.certifications.length > 0 ? (
             <Certifications theme={this.props.theme} />
-          ) : null} */}
+          ) : null}
         </div>
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />

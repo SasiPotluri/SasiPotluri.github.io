@@ -24,7 +24,7 @@ const greeting = {
   subTitle:
     "I am a passionate software engineer who thrives to work in challenging projects to create an impact on the advancement of technology..",
   resumeLink:
-    "https://drive.google.com/file/d/1_JVDgN9_SCz9fTfvbYGaky5e68T_i58f/view?usp=drive_link",
+    "https://drive.google.com/file/d/1EfwIAptlU0n6XAnfts2MmeXs8yzIXEdB/view?usp=drive_link",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/ashutosh1919",
 };
@@ -102,6 +102,14 @@ const skills = {
             color: "#1565C0",
           },
         },
+        {
+          skillName: "DOCKER",
+          fontAwesomeClassname: "logos:docker",
+          style: {
+            backgroundColor: "transparent",
+            color: "#1565C0",
+          },
+        },
       ],
     },
     {
@@ -141,13 +149,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
           },
         },
         {
@@ -237,7 +238,7 @@ const skills = {
 
 const education = {
   description:
-    "I am pursuing my Master of Science in Software Engineering from Arizona State University. I have gained advanced knowledge and practical skills in designing and developing software systems, as well as expertise in applying engineering principles to software development. I also have gained understanding of Data Engineering",
+    "I hold a Master of Science in Software Engineering from Arizona State University. This program equipped me with advanced skills in software system design and development, applying engineering principles to software creation. I gained expertise in design methodologies, maintenance, testing, and operational principles. Additionally, I engaged in research and honed professional skills, eager to apply my knowledge to innovate software solutions.",
   degrees: [
     {
       title: "Arizona State University",
@@ -270,8 +271,21 @@ const education = {
 const experience = {
   title: "Experience",
   description:
-    "I have developed Full-stack applications and also have experince in designing database schemas and programming various logics for Business requirements ",
+    "I excel in crafting user-friendly applications from concept to completion, including database design and implementing diverse business logic components. My expertise spans from creating intuitive interfaces to backend development. I am skilled at managing databases efficiently to meet specific business needs accurately.",
   experiences: [
+    {
+      title: "Software Developer (Capstone)",
+      subtitle: "Kutta Technologies",
+      logo_path: "kutta.jpeg",
+      alt_name: "Kutta",
+      duration: "Aug 2023 - Dec 2023",
+      descriptions: [
+        "⚡  Developed and fine-tuned Aerial Object Detection System by implementing the YOLO algorithm for search and rescue in real time on a low-power ARM Linux platform with an OpenCL-enabled GPU.",
+        "⚡  Achieved over 95% accuracy in real-time object detection, enhancing decision-making for rescue teams using Pytorch",
+        "⚡  Implemented user-friendly interface and addressed streaming setup complexities, contributing to efficient search and rescue.",
+      ],
+      website_link: "https://www.kuttatech.com/",
+    },
     {
       title: "Software Engineer",
       subtitle: "Congruent Solutions",
@@ -289,16 +303,17 @@ const experience = {
       website_link: "https://www.congruentsolutions.com/",
     },
     {
-      title: "Product Developer Intern",
-      subtitle: "SVP Laser Tech",
-      logo_path: "svp_logo.png",
-      alt_name: "SVP",
+      title: "Software Developer Intern",
+      subtitle: "Verity Technologies",
+      logo_path: "verity_logo.png",
+      alt_name: "VT",
       duration: "Apr 2019 - Jun 2019",
       descriptions: [
-        "⚡ Optimized the MULTICNC software which performs high Precision profiling on several materials with 0.1 mm tolerance.",
-        "⚡ Charted Algorithms for a miniature Vending Machine using Raspberry Pi and Arduino.",
+        "⚡ Developed ASP.NET MVC web application with C# .NET, emphasizing efficient design and middleware implementation.",
+        "⚡ Proficient in SQL Server for back-end database management, utilizing LINQ and ADO.NET for optimized data handling.",
+        "⚡ Utilized Git and Azure DevOps for version control and collaborative development, ensuring streamlined project management.",
       ],
-      website_link: "https://www.greacnc.com/",
+      website_link: "https://www.verity365.com/",
     },
   ],
 };
@@ -306,112 +321,29 @@ const experience = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "AWS",
+      subtitle: "- AWS Developer Associate",
+      logo_path: "aws.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "https://www.credly.com/badges/cee8a9d2-35e7-40b0-b3ee-b937855c3125",
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
+      title: "C#",
+      subtitle: "- Microsoft",
       logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
+      certificate_link: "microsoft.com",
+      alt_name: "freecodecamporg",
       color_code: "#D83B0199",
     },
     {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
+      title: "Oustanding Sprint Developer",
+      subtitle: "- Congruent",
+      logo_path: "congruent_logo.png",
+      certificate_link: "https://www.congruentsolutions.com/",
+      alt_name: "Congruent",
       color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
     },
   ],
 };
@@ -572,16 +504,16 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "sasikanth.png",
+    profile_image_path: "sasi_logo.jpg",
     description:
-      "Feel free to use the contact information form below or reach out to me. With a passion for Software Development, I'm eager to explore new opportunities and contribute to exciting projects. Let's connect and discuss how we can work together to make a significant impact on the world.",
+      "Feel free to use the contact information form below or reach out to me. I am passionate in Software Development, I'm eager to explore new opportunities and contribute to exciting projects. Let's connect and discuss how we can work together to make a significant impact on the world.",
   },
 
   addressSection: {
     title: "Address",
-    subtitle: "1717 S Dorsey Ln, Tempe, Arizona",
+    subtitle: "7401 Ridgepoint Dr, Irving, TX",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/6jDJ4RzbHdKXxTnq7",
+    location_map_link: "https://maps.app.goo.gl/DB8hRbS1xMVsnioB7",
   },
   phoneSection: {
     title: "Phone ",
@@ -589,7 +521,7 @@ const contactPageData = {
   },
   emailSection: {
     title: "Email ",
-    subtitle: "sasikanthpotluri@gmail.com",
+    subtitle: "potlurisasikanth@gmail.com",
   },
 };
 

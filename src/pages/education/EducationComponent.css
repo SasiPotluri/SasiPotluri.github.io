@@ -22,7 +22,9 @@
 }
 
 .heading-text-div {
-  text-align: center;
+  text-align: center, justify;
+
+  word-wrap: break-word;
 }
 
 .heading-img-div > * {
